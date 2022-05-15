@@ -8,6 +8,24 @@
     <title>Document</title>
   </head>
   <body>
+    <h1>Countdown timer</h1>
+    <main>
+      <section class="inputs active">
+        <input id="hours" type="number" placeholder="HH" min="0" max="10" />
+        <span>:</span>
+        <input id="minutes" type="number" placeholder="MM" min="0" max="60" />
+        <span>:</span>
+        <input id="seconds" type="number" placeholder="SS" min="0" max="60" />
+      </section>
+      <div class="live closed">
+        <div class="h"></div>
+        <span>:</span>
+        <div class="m"></div>
+        <span>:</span>
+        <div class="s"></div>
+      </div>
+      <button id="startBtn">Start</button>
+    </main>
     <!-- script -->
     <script src="./app.js"></script>
   </body>
